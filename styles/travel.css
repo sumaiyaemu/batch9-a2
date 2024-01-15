@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.navigation-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px ,120px;
+}
+.nav-container{
+   
+    display: flex;
+    gap: 16px;
+}
+.nav-container img{
+    width: 48px;
+}
+.nav-container p{
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318;
+}
+.nav-item  ul> a{
+   text-decoration: none;
+   margin-left: 44px;
+   color:#424247;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.explore-section{
+    background-image:url(../Images/Group\ 13\ \(1\)\ \(1\).png) ;
+    background-position: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 1170px;
+height: 500px;
+margin-top: 50px;
+text-align: center;
+align-items: center;
+}
+.explore-title{
+   padding-top: 160px;
+}
+.explore-column{
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.explore-description{
+    color: #FFF;
+text-align: center;
+margin-left: 250px;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 48px;
+width: 600px;
+}
+.explore-form{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.btn-primary{
+    border-radius: 2px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+border: none;
+width: 174px;
+height: 52px;
+}
+
+
+@media screen and (max-width:600px){
+    .navigation-section{
+        flex-direction: column;
+    }
+    .navigation-section .nav-item {
+        flex-direction: column;
+    }
+    .explore-title{
+        padding-top: 40px;
+    }
+    .explore-column{
+        font-size: 22px;
+    }
+    .explore-description{
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+        align-items: center;
+    }
+    .explore-form{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
