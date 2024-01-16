@@ -9,7 +9,7 @@
 body {
     font-family: 'Mulish', sans-serif;
 }
-
+/*navigation section start*/
 .navigation-section {
     max-width: 1440px;
     margin: 0 auto;
@@ -44,7 +44,7 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-
+/*header section start*/
 .explore-section {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-position: center;
@@ -70,6 +70,7 @@ body {
 
 .explore-description {
     color: #FFF;
+    display: flex;
     text-align: center;
     margin-left: 250px;
     font-size: 16px;
@@ -98,6 +99,7 @@ body {
     width: 174px;
     height: 52px;
 }
+/*Main section start*/
 .tours {
     display: flex;
     max-width: 1440px;
@@ -304,7 +306,7 @@ background: rgba(233, 68, 68, 0.05);
     width: 50%;
 }
 .sale{
-    width:650px;
+    width:700px;
  height: 125px;
  color: #FFF;
  border-radius: 16px;
@@ -316,6 +318,7 @@ background: rgba(233, 68, 68, 0.05);
  right: 300px;
  transform: rotate(-20deg);
  }
+ /*Footer section start*/
  .footer-section{
     width: 100%;
     min-height: 500px;
@@ -338,11 +341,12 @@ font-size: 32px;
 font-weight: 800;
  }
 .footer-column .footer-icons{
-justify-content: space-evenly;
-    margin-right: 20px;
+     display: flex;
     gap: 20px;
+    justify-content: center;
     margin-bottom: 50px;
  }
+ /*Responsive section for mobile device*/
 
 @media screen and (max-width:600px) {
 
@@ -391,6 +395,10 @@ justify-content: space-evenly;
     .news-content{
         width: auto;
         align-items: center;
+       
+    }
+    .news-input-image{
+        width: 80%;
     }
     .sale{
         width:350px;
